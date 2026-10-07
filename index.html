@@ -11,11 +11,13 @@
     @media(max-width:850px){.hero{gap:35px;padding-top:65px}.split{gap:40px}.cards{grid-template-columns:1fr}.card{padding:26px}.number{margin-bottom:18px}.hero-art{aspect-ratio:.75}nav{gap:17px}.affiliations{gap:25px}.contact{align-items:flex-start}}
     @media(max-width:600px){.wrap{width:calc(100% - 36px)}.header-inner{flex-direction:column;align-items:flex-start;gap:10px;padding:16px 0;min-height:0}.brand{font-size:23px}nav{width:100%;justify-content:space-between;gap:8px;font-size:12px}.hero{grid-template-columns:1fr;gap:35px;padding:50px 0}h1{letter-spacing:-2px}.hero-art{aspect-ratio:1.4;border-radius:140px 140px 8px 8px;max-width:380px;width:100%;margin:auto}.hero-art img{width:100%;height:100%;object-fit:cover;object-position:50% 38%;position:absolute;inset:0}.hero-art svg{width:60%}.art-note{bottom:15px;font-size:9px}.affiliations{flex-direction:column;gap:16px}.split{grid-template-columns:1fr;gap:20px}section{padding:58px 0}.publication{grid-template-columns:1fr;gap:7px}.contact{flex-direction:column;gap:25px}.footer-inner{flex-direction:column;gap:8px}.teaching-note{font-size:21px}}
     @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+    .media-interview{max-width:800px}.media-interview .eyebrow{margin-bottom:16px;color:var(--accent);font-size:11px}.media-photos{margin-top:44px}.media-photo-intro,.media-photo-status{color:var(--muted)}.media-photo-status{font-size:14px}.media-gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr));gap:24px}.media-gallery:empty{display:none}.media-gallery figure{margin:0;background:var(--white);border:1px solid var(--line)}.media-gallery img{display:block;width:100%;height:auto}.media-gallery figcaption{padding:16px 20px;color:var(--muted);font-size:14px}
+    @media(max-width:600px){nav{flex-wrap:wrap;justify-content:flex-start;column-gap:18px;row-gap:8px}}
   </style>
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
-<header><div class="wrap header-inner"><a class="brand" href="#main">Riley Kendall<span style="color:var(--accent)">.</span></a><nav aria-label="Main navigation"><a href="#about">About</a><a href="#teaching">Teaching</a><a href="#research">Research</a><a href="#cv">CV</a><a href="#contact">Contact</a></nav></div></header>
+<header><div class="wrap header-inner"><a class="brand" href="#main">Riley Kendall<span style="color:var(--accent)">.</span></a><nav aria-label="Main navigation"><a href="#about">About</a><a href="#teaching">Teaching</a><a href="#research">Research</a><a href="#cv">CV</a><a href="#media">Media</a><a href="#contact">Contact</a></nav></div></header>
 <main id="main">
   <div class="wrap">
     <div class="hero">
@@ -31,7 +33,31 @@
   </div></section>
   <section id="scholarship"><div class="wrap"><p class="eyebrow">Selected scholarship</p><h2>Research &amp; teaching contributions.</h2><article class="publication"><span class="year">2026 · TALK</span><div><h3>Designing an Immersive Mystery Case Study to Promote Applied Learning in Physiological Psychology</h3><p>Faculty for Undergraduate Neuroscience Workshop · Teaching presentation</p></div></article><article class="publication"><span class="year">2025 · PAPER</span><div><h3>Rats pursue food and leisure following the same rational principles</h3><p>Coauthor · Proceedings of the National Academy of Sciences, 122(44), e2520884122 · <a href="https://doi.org/10.1073/pnas.2520884122">Read paper</a></p></div></article><article class="publication"><span class="year">2022 · PAPER</span><div><h3>Quitting while you’re ahead: Patch foraging and temporal cognition</h3><p>First author · Behavioral Neuroscience, 136(5), 467–478 · <a href="https://doi.org/10.1037/bne0000526">Read paper</a></p></div></article><article class="publication"><span class="year">2020 · PAPER</span><div><h3>Kynurenine suppresses osteoblastic cell energetics in vitro and osteoblast numbers in vivo</h3><p>Coauthor · Experimental Gerontology, 130, 110818 · <a href="https://doi.org/10.1016/j.exger.2019.110818">Read paper</a></p></div></article></div></section>
   <section id="cv"><div class="wrap split"><div><p class="eyebrow">Curriculum vitae</p><h2>An interdisciplinary foundation.</h2></div><div class="cv-box"><h3>Science, computation &amp; education</h3><p>My experience includes university teaching, undergraduate mentorship, electrophysiology, computational modeling, and data analysis in Python, R, and MATLAB.</p><p style="margin-top:24px"><a class="button" href="cv.pdf">View my CV (PDF) <span aria-hidden="true">↗</span></a></p></div></div></section>
-  <section id="media"><div class="wrap split"><div><p class="eyebrow">Podcast</p><h2>A little about how I got here.</h2></div><div class="cv-box"><h3>My path into neuroscience</h3><p>A conversation about my path into neuroscience and finding my niche.</p><p style="margin-top:16px;font-size:14px">December 16, 2022</p><p style="margin-top:24px"><a class="button" href="https://joshuaoommen.substack.com/p/riley-kendalon-finding-her-niche">Listen to the interview <span aria-hidden="true">↗</span></a></p></div></div></section>
+  <section id="media" aria-labelledby="media-heading">
+    <div class="wrap">
+      <p class="eyebrow">Interviews &amp; moments</p>
+      <h2 id="media-heading">Media</h2>
+      <article class="cv-box media-interview">
+        <p class="eyebrow">Podcast interview · December 16, 2022</p>
+        <h3>My path into neuroscience</h3>
+        <p>A conversation about my path into neuroscience and finding my niche.</p>
+        <p style="margin-top:24px"><a class="button" href="https://joshuaoommen.substack.com/p/riley-kendalon-finding-her-niche">Listen to the interview <span aria-hidden="true">↗</span></a></p>
+      </article>
+      <div class="media-photos">
+        <h3>Undergraduate research &amp; mentorship</h3>
+        <p class="media-photo-intro">Moments from research, presentations, and learning together.</p>
+        <div class="media-gallery">
+          <!-- Add one figure per photo when the images are ready:
+          <figure>
+            <img src="research-photo-1.jpg" alt="Describe the people and activity shown" loading="lazy">
+            <figcaption>Add a caption about the event or research here.</figcaption>
+          </figure>
+          -->
+        </div>
+        <p class="media-photo-status">Photos coming soon.</p>
+      </div>
+    </div>
+  </section>
   <section id="contact"><div class="wrap contact"><div><p class="eyebrow">Contact</p><h2>Let’s connect.</h2><p>I welcome conversations about neuroscience education, undergraduate mentorship, and decision-making research.</p><p style="margin-top:18px"><a href="mailto:rileykendall@comcast.net">rileykendall@comcast.net</a></p><p style="margin-top:12px"><a href="https://www.linkedin.com/in/riley-kendall-144b90180/">LinkedIn</a> · <a href="https://www.researchgate.net/profile/Riley-Kendall">ResearchGate</a></p></div><a class="button secondary" href="https://github.com/rkkend">Find me on GitHub <span aria-hidden="true">↗</span></a></div></section>
 </main>
 <footer><div class="wrap footer-inner"><span>© <span id="year">2026</span> Riley Kendall</span><span>Neuroscience · Education · Discovery</span></div></footer>
